@@ -7,7 +7,7 @@ const connectDB = async()=>{
         console.log(`Connected to MongoDB ${mongoose.connection.host}`.bgGreen.white)
     }
     catch(err){
-        comsole.log("MONGO ERROR".bgRed.white)
+        console.log("MONGO ERROR".bgRed.white)
     }
 }
 module.exports = connectDB
